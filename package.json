@@ -1,10 +1,11 @@
 {
-  "name": "docker-node-example",
+  "name": "js-refreshers",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "PORT=2345 nodemon ./index.js"
+    "start": "PORT=2345 nodemon ./index.js",
+    "generators": "node ./generator-functions"
   },
   "author": "",
   "license": "ISC",
